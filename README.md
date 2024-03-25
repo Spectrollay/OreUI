@@ -18,7 +18,16 @@ OreUI是Mojang工作室使用网络技术用于开发用户界面(UI)的一种�
 
 以下项目运用了该技术
 
-- https://github.com/Spectrollay/Minecraft_Repository
+- https://github.com/Spectrollay/minecraft_repository
+- https://github.com/Spectrollay/mclang_cn
 
 ## 目录
-待完成
+
+### 入门
+### 设计指南
+### 界面
+### 布局
+### 容器
+### 按钮
+### 控件
+### 消息

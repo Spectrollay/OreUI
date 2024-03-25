@@ -19,7 +19,16 @@ This repository mainly implements the interface components of OreUI using native
 
 Some of the projects using this tech:
 
-- https://github.com/Spectrollay/Minecraft_Repository
+- https://github.com/Spectrollay/minecraft_repository
+- https://github.com/Spectrollay/mclang_cn
 
 ## Menu
-Todu
+
+### Get Start
+### Design Guidelines
+### Interface
+### Layout
+### Content
+### Buttons
+### Controls
+### Messages
