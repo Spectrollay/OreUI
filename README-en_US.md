@@ -20,7 +20,13 @@ This repository mainly implements the interface components of OreUI using native
 Some of the projects using this tech:
 
 - https://github.com/Spectrollay/minecraft_repository
+- https://github.com/Spectrollay/minecraft_repository_test
 - https://github.com/Spectrollay/mclang_cn
+
+## Start
+
+### [OreUI Design Documentation](https://spectrollay.github.io/OreUI/)
+### [OreUI Program Demonstrate](https://spectrollay.github.io/minecraft_repository_test/)
 
 ## Menu
 
