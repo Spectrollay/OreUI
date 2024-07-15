@@ -15,7 +15,7 @@ You can learn more from https://github.com/Mojang/ore-ui .
 
 ## Repository Introduction
 
-This repository mainly implements the interface components of OreUI using native HTML without any plugins.
+This repository is designed to implement the interface components of OreUI using native HTML without any plugins.
 
 Some of the projects using this tech:
 
@@ -25,16 +25,53 @@ Some of the projects using this tech:
 
 ## Start
 
-### [OreUI Design Documentation](https://spectrollay.github.io/OreUI/)
-### [OreUI Program Demonstrate](https://spectrollay.github.io/minecraft_repository_test/)
+- ### [OreUI Design Documentation](https://spectrollay.github.io/OreUI/)
+- ### [OreUI Program Demonstrate](https://spectrollay.github.io/minecraft_repository_test/)
 
 ## Menu
 
-### Get Start
-### Design Guidelines
-### Interface
-### Layout
-### Content
-### Buttons
-### Controls
-### Messages
+- ### Get Start
+  - #### Introduction
+  - #### Overview
+  - #### Use It
+- ### Design Guidelines
+  - #### Accessibility
+  - #### Colors
+  - #### Fonts
+  - #### Scaling
+  - #### Platform Support
+- ### Interface
+  - #### Document View
+  - #### Scroll View
+  - #### Tool Bar
+  - #### Side Bar
+- ### Layout
+  - #### Divider
+  - #### Flat List
+  - #### Flex
+  - #### Wrap Flex
+  - #### Grid
+- ### Contents
+  - #### Table
+  - #### List
+  - #### Card
+  - #### Tab Bar
+- ### Buttons
+  - #### Link
+  - #### Button
+- ### Controls
+  - #### Checkbox
+  - #### Dropdown
+  - #### Radio Group
+  - #### Slider
+  - #### Switch
+  - #### Text Field
+- ### Messages
+  - #### Badge
+  - #### Tag
+  - #### Pop
+  - #### Banner
+  - #### Tooltip
+  - #### Full Screen Message
+  - #### Process Bar
+  - #### Modal
