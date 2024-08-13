@@ -6,7 +6,7 @@
 
 # OreUI Design
 
-### OreUI interface components based on native HTML without any plugins
+### A third-party WebUI based on the OreUI design philosophy
 
 ## What is OreUI?
 OreUI is a open-source building blocks from Mojang Studios to develop user interfaces (UI's) using web tech.
@@ -16,6 +16,8 @@ You can learn more from https://github.com/Mojang/ore-ui .
 ## Repository Introduction
 
 This repository is designed to implement the interface components of OreUI using native HTML without any plugins.
+
+This repository has no affiliation with Mojang Studios.
 
 Some of the projects using this tech:
 
