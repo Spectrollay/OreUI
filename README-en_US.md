@@ -27,8 +27,8 @@ Some of the projects using this tech:
 
 ## Start
 
-- ### [OreUI Design Documentation](https://spectrollay.github.io/OreUI/)
-- ### [OreUI Program Demonstrate](https://spectrollay.github.io/minecraft_repository_test/)
+- ### [OreUI Design Documentation](https://spectrollay.github.io/OreUI)
+- ### [OreUI Program Demonstrate](https://spectrollay.github.io/minecraft_repository)
 
 ## Menu
 
