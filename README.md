@@ -4,75 +4,35 @@
 
 </div>
 
-# OreUI 设计
+# ✨ OreUI 设计 ✨
 
-### 一个基于OreUI设计理念的第三方WebUI
+### 一个基于OreUI设计理念的**原生 WebUI 实现**
 
-## 何为OreUI?
-OreUI是Mojang工作室使用网络技术用于开发用户界面(UI)的一种开放资源构建模块.
+---
 
-你可以从 https://github.com/Mojang/ore-ui 了解更多.
+## 🚀 什么是 OreUI?
 
-## 仓库介绍
-本仓库旨在通过原生HTML实现OreUI的内容组件,无需借助任何插件.
+OreUI 是 Mojang 工作室利用**前沿Web技术**打造的**开源用户界面 (UI) 构建模块**。它为开发者提供了创建现代化、响应式界面的强大基础。  
+你可以在 [https://github.com/Mojang/ore-ui](https://github.com/Mojang/ore-ui) 深入了解更多细节。
 
-本仓库与Mojang工作室不存在任何从属关系.
+---
 
-以下项目运用了该技术
+## 💡 项目简介
 
-- https://github.com/Spectrollay/minecraft_repository
-- https://github.com/Spectrollay/minecraft_repository_test
-- https://github.com/Spectrollay/mclang_cn
+本项目的核心目标是：**完全使用原生 HTML、CSS 和 JavaScript 实现 OreUI 的核心组件，告别对任何第三方插件或框架的依赖**。  
+请注意：本项目为独立开发，与 Mojang 工作室**无任何从属关系**。
 
-## 开始
+### 🌟 应用此技术的精选项目
 
-- ### [OreUI设计文档](https://spectrollay.github.io/OreUI)
-- ### [OreUI项目示例](https://spectrollay.github.io/minecraft_repository)
+探索这些利用 OreUI 设计理念构建的实际应用：
 
-## 目录
+* [**星月Minecraft版本库**](https://github.com/Spectrollay/minecraft_repository)
+* [**星月Minecraft版本库（测试仓库）**](https://github.com/Spectrollay/minecraft_repository_test)
+* [**Minecraft基岩版中文译名修正项目**](https://github.com/Spectrollay/mclang_cn)
 
-- ### 入门
-  - #### 介绍
-  - #### 概览
-  - #### 应用
-- ### 设计指南
-  - #### 无障碍
-  - #### 颜色
-  - #### 字体
-  - #### 缩放
-  - #### 平台支持
-- ### 界面
-  - #### Document View
-  - #### Scroll View
-  - #### Tool Bar
-  - #### Side Bar
-- ### 布局
-  - #### Divider
-  - #### Flat List
-  - #### Flex
-  - #### Wrap Flex
-  - #### Grid
-- ### 容器
-  - #### Table
-  - #### List
-  - #### Card
-  - #### Tab Bar
-- ### 按钮
-  - #### Link
-  - #### Button
-- ### 控件
-  - #### Checkbox
-  - #### Dropdown
-  - #### Radio Group
-  - #### Slider
-  - #### Switch
-  - #### Text Field
-- ### 消息
-  - #### Badge
-  - #### Tag
-  - #### Pop
-  - #### Banner
-  - #### Tooltip
-  - #### Full Screen Message
-  - #### Process Bar
-  - #### Modal
+---
+
+## 🚀 快速开始
+
+* ### 📖 [**OreUI 设计文档**](https://spectrollay.github.io/OreUI)
+* ### 🎨 [**OreUI 项目示例**](https://spectrollay.github.io/minecraft_repository)

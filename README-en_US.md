@@ -4,76 +4,35 @@
 
 </div>
 
-# OreUI Design
+# ✨ OreUI Design ✨
 
-### A third-party WebUI based on the OreUI design philosophy
+### A **Native WebUI Implementation** Based on OreUI Design Principles
 
-## What is OreUI?
-OreUI is a open-source building blocks from Mojang Studios to develop user interfaces (UI's) using web tech.
+---
 
-You can learn more from https://github.com/Mojang/ore-ui .
+## 🚀 What is OreUI?
 
-## Repository Introduction
+OreUI is an **open-source User Interface (UI) building block** crafted by Mojang Studios using **cutting-edge web technologies**. It provides developers with a powerful foundation for creating modern, responsive interfaces.  
+You can delve deeper into its details at [https://github.com/Mojang/ore-ui](https://github.com/Mojang/ore-ui).
 
-This repository is designed to implement the interface components of OreUI using native HTML without any plugins.
+---
 
-This repository has no affiliation with Mojang Studios.
+## 💡 Project Overview
 
-Some of the projects using this tech:
+The core objective of this project is to: **fully implement the essential components of OreUI using native HTML, CSS, and JavaScript, completely eliminating reliance on any third-party plugins or frameworks**.  
+Please note: This project is independently developed and has **no affiliation** with Mojang Studios.
 
-- https://github.com/Spectrollay/minecraft_repository
-- https://github.com/Spectrollay/minecraft_repository_test
-- https://github.com/Spectrollay/mclang_cn
+### 🌟 Featured Projects Utilizing This Technology
 
-## Start
+Explore these practical applications built with the OreUI design philosophy:
 
-- ### [OreUI Design Documentation](https://spectrollay.github.io/OreUI)
-- ### [OreUI Program Demonstrate](https://spectrollay.github.io/minecraft_repository)
+* [**StarMoon Minecraft Repository**](https://github.com/Spectrollay/minecraft_repository)
+* [**StarMoon Minecraft Repository (Test)**](https://github.com/Spectrollay/minecraft_repository_test)
+* [**MCBE Chinese Translation Revision Project**](https://github.com/Spectrollay/mclang_cn)
 
-## Menu
+---
 
-- ### Get Start
-  - #### Introduction
-  - #### Overview
-  - #### Use It
-- ### Design Guidelines
-  - #### Accessibility
-  - #### Colors
-  - #### Fonts
-  - #### Scaling
-  - #### Platform Support
-- ### Interface
-  - #### Document View
-  - #### Scroll View
-  - #### Tool Bar
-  - #### Side Bar
-- ### Layout
-  - #### Divider
-  - #### Flat List
-  - #### Flex
-  - #### Wrap Flex
-  - #### Grid
-- ### Contents
-  - #### Table
-  - #### List
-  - #### Card
-  - #### Tab Bar
-- ### Buttons
-  - #### Link
-  - #### Button
-- ### Controls
-  - #### Checkbox
-  - #### Dropdown
-  - #### Radio Group
-  - #### Slider
-  - #### Switch
-  - #### Text Field
-- ### Messages
-  - #### Badge
-  - #### Tag
-  - #### Pop
-  - #### Banner
-  - #### Tooltip
-  - #### Full Screen Message
-  - #### Process Bar
-  - #### Modal
+## 🚀 Getting Started
+
+* ### 📖 [**OreUI Design Documentation**](https://spectrollay.github.io/OreUI)
+* ### 🎨 [**OreUI Project Example**](https://spectrollay.github.io/minecraft_repository)
