@@ -10,6 +10,11 @@
 
 ---
 
+> [!NOTE]  
+> **We are fully upgrading the OreUI to V2, which may require some additional time for restructuring the repository, and the official documentation will be gradually released by 2026.**
+
+---
+
 ## 🚀 What is OreUI?
 
 OreUI is an **open-source User Interface (UI) building block** crafted by Mojang Studios using **cutting-edge web technologies**. It provides developers with a powerful foundation for creating modern, responsive interfaces.  
@@ -29,6 +34,7 @@ Explore these practical applications built with the OreUI design philosophy:
 * [**StarMoon Minecraft Repository**](https://github.com/Spectrollay/minecraft_repository)
 * [**StarMoon Minecraft Repository (Test)**](https://github.com/Spectrollay/minecraft_repository_test)
 * [**MCBE Chinese Translation Revision Project**](https://github.com/Spectrollay/mclang_cn)
+* [**Minecraft Formatting Code Renderer**](https://github.com/Spectrollay/minecraft_formatting_code_online)
 
 ---
 
