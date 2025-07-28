@@ -32,7 +32,7 @@ OreUI 是 Mojang 工作室利用**前沿 Web 技术**打造的**开源用户界�
 探索这些利用 OreUI 设计理念构建的实际应用：
 
 * [**星月Minecraft版本库**](https://github.com/Spectrollay/minecraft_repository)
-* [**星月Minecraft版本库（测试仓库）**](https://github.com/Spectrollay/minecraft_repository_test)
+* [**星月Minecraft版本库（开发仓库）**](https://github.com/Spectrollay/minecraft_repository_test)
 * [**Minecraft基岩版中文译名修正项目**](https://github.com/Spectrollay/mclang_cn)
 * [**Minecraft 格式化代码渲染器**](https://github.com/Spectrollay/minecraft_formatting_code_online)
 
