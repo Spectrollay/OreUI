@@ -4,41 +4,108 @@
 
 </div>
 
+<div align="center">
+
 # ✨ OreUI Design ✨
 
-### A **Native WebUI Implementation** Based on OreUI Design Principles
+### A **Native WebUI Implementation** Based on OreUI Design Principle
+
+[![Stars](https://img.shields.io/github/stars/Spectrollay/OreUI?color=eac54f&style=for-the-badge&label=Stars)](https://github.com/Spectrollay/OreUI/stargazers)
+[![Forks](https://img.shields.io/github/forks/Spectrollay/OreUI?color=brightgreen&style=for-the-badge&label=Forks)](https://github.com/Spectrollay/OreUI/network/members)
+[![Repo Size](https://img.shields.io/github/repo-size/Spectrollay/OreUI?style=for-the-badge&label=Repo%20Size)](https://github.com/Spectrollay/OreUI/archive/refs/heads/main.zip)
+
+[![Last Commit](https://img.shields.io/github/last-commit/Spectrollay/OreUI?style=for-the-badge&label=Last%20Commit)](https://github.com/Spectrollay/OreUI/commits/main)
+[![License](https://img.shields.io/badge/License-MIT-ff69b4?style=for-the-badge)](LICENSE)
+
+</div>
 
 ---
 
-> [!NOTE]  
+> [!IMPORTANT]  
 > **We are fully upgrading the OreUI to V2, which may require some additional time for restructuring the repository, and the official documentation will be gradually released by 2026.**
 
 ---
 
 ## 🚀 What is OreUI?
 
-OreUI is an **open-source User Interface (UI) building block** crafted by Mojang Studios using **cutting-edge web technologies**. It provides developers with a powerful foundation for creating modern, responsive interfaces.  
-You can delve deeper into its details at [https://github.com/Mojang/ore-ui](https://github.com/Mojang/ore-ui).
+OreUI is an **open-source UI foundation** developed by Mojang Studios, built on **web standards** to provide a unified, reusable, and extensible infrastructure for game and application interfaces. Its primary goal is to enable developers to build consistent user experiences declaratively, with support for cross-platform rendering, theme customization, and maintainability—reducing development complexity while improving portability.  
+You can delve deeper into its details at [Mojang/ore-ui](https://github.com/Mojang/ore-ui).
 
 ---
 
-## 💡 Project Overview
+## 💡 Project Vision
 
 The core objective of this project is to: **fully implement the essential components of OreUI using native HTML, CSS, and JavaScript, completely eliminating reliance on any third-party plugins or frameworks**.  
-Please note: This project is independently developed and has **no affiliation** with Mojang Studios.
 
-### 🌟 Featured Projects Utilizing This Technology
+> [!NOTE]  
+> This project is independently developed and has **no affiliation** with Mojang Studios.
+
+> [!CAUTION]  
+> Just for fun, not highly technical. Please don’t rely on it too much.
+
+---
+
+## ✨ Features
+
+This project is developed and maintained based on the following features:
+
+* **Pure Native Implementation**: No third-party dependencies, ensuring lightweight, efficient, and easy integration.
+* **Highly Customizable**: Easily adjustable to meet personalized needs.
+* **Modular Architecture**: Components can be used independently or combined, greatly enhancing development flexibility.
+* **Responsive Design**: Adapts seamlessly across devices for smooth user experiences.
+* **Wide Compatibility**: Works with most major modern browsers, keeping behavior consistent across platforms.
+
+---
+
+## 🎨 Design Philosophy
+
+We follow these key design principles when building this project:
+
+* **Minimalism**: Avoid unnecessary dependencies, keeping code clean and simple.
+* **Native First**: Leverage native browser capabilities for the best performance and compatibility.
+* **High Customization**: Every component can be freely tailored as needed.
+* **Accessibility**: Optimized for an inclusive experience, ensuring usability for all users.
+
+---
+
+## 🚀 Quick Start
+
+* ### 🏠 [**OreUI Project Homepage**](https://spectrollay.github.io/OreUI)
+* ### 📚 [**OreUI Design Docs**](https://spectrollay.github.io/OreUI/docs)
+* ### 🛠️ [**OreUI Usage Guidance**](https://spectrollay.github.io/OreUI/docs/how_to_use.html)
+
+---
+
+## 🌟 Featured Projects
 
 Explore these practical applications built with the OreUI design philosophy:
 
-* [**StarMoon Minecraft Repository**](https://github.com/Spectrollay/minecraft_repository)
-* [**StarMoon Minecraft Repository (Test)**](https://github.com/Spectrollay/minecraft_repository_test)
-* [**MCBE Chinese Translation Revision Project**](https://github.com/Spectrollay/mclang_cn)
-* [**Minecraft Formatting Code Renderer**](https://github.com/Spectrollay/minecraft_formatting_code_online)
+* ### [**StarMoon Minecraft Repository**](https://github.com/Spectrollay/minecraft_repository)
+* ### [**StarMoon Minecraft Repository (Test)**](https://github.com/Spectrollay/minecraft_repository_test)
+* ### [**Minecraft Bedrock Edition Chinese Translation Revision Project**](https://github.com/Spectrollay/mclang_cn)
+* ### [**Minecraft Formatting Code Renderer**](https://github.com/Spectrollay/minecraft_formatting_code_online)
 
 ---
 
-## 🚀 Getting Started
+## 🤝 Contribution Guide
 
-* ### 📖 [**OreUI Design Documentation**](https://spectrollay.github.io/OreUI)
-* ### 🎨 [**OreUI Project Example**](https://spectrollay.github.io/minecraft_repository)
+We welcome contributions of all kinds! Whether it’s code, documentation, or ideas — your participation is invaluable.
+
+* **Report Issues or Suggestions:** Use [**GitHub Issues**](https://github.com/Spectrollay/OreUI/issues) to describe your ideas or problems in detail.
+* **Contribute Code:** [**Fork**](https://github.com/Spectrollay/OreUI/fork) this repository, make changes, and submit a Pull Request.
+
+Before contributing, please read our [**Contributing Guide**](CONTRIBUTING.md) for more details.
+
+---
+
+## 📜 License
+
+This project is licensed under the [**MIT License**](LICENSE). You are free to use, modify, and distribute it, but please retain the original license notice.
+
+---
+
+## 📬 Contact Us
+
+If you have any questions, suggestions, or just want to chat, feel free to reach out via:
+
+[![Telegram](https://img.shields.io/badge/Telegram-Group-blue?style=for-the-badge)](https://t.me/Spectrollay_MCW) [![QQ-Group](https://img.shields.io/badge/QQ-Group-blue?style=for-the-badge)](https://qm.qq.com/q/AqLmKLH9mM) [![YH-Group](https://img.shields.io/badge/Yunhu-Group-blue?style=for-the-badge)](https://yhfx.jwznb.com/share?key=VyTE7W7sLwRl&ts=1684642802)
