@@ -34,37 +34,37 @@
 /* 自定义字体 */
 @font-face {
     font-family: 'Minecraft Ten';
-    src: url("/fonts/Minecraft-Ten.otf") format('opentype');
+    src: url("/OreUI/fonts/Minecraft-Ten.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Minecraft Seven';
-    src: url("/fonts/Minecraft-Seven.otf") format('opentype');
+    src: url("/OreUI/fonts/Minecraft-Seven.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Minecraft Five Bold';
-    src: url("/fonts/Minecraft-Five-Bold.otf") format('opentype');
+    src: url("/OreUI/fonts/Minecraft-Five-Bold.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Minecraft Five';
-    src: url("/fonts/Minecraft-Five.otf") format('opentype');
+    src: url("/OreUI/fonts/Minecraft-Five.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'NotoSans Bold';
-    src: url("/fonts/NotoSans-Bold.ttf") format('truetype');
+    src: url("/OreUI/fonts/NotoSans-Bold.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'NotoSans BoldItalic';
-    src: url("/fonts/NotoSans-BoldItalic.ttf") format('truetype');
+    src: url("/OreUI/fonts/NotoSans-BoldItalic.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'NotoSans Italic';
-    src: url("/fonts/NotoSans-Italic.ttf") format('truetype');
+    src: url("/OreUI/fonts/NotoSans-Italic.ttf") format('truetype');
 }
 
 /* 页面选择事件 */
