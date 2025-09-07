@@ -33,11 +33,104 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta content="webkit" name="renderer">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link as="image" href="./images/Loading_white.gif" rel="preload">
+    <link href="./stylesheet/loading_mask.css" rel="stylesheet">
+    <link href="./stylesheet/public_style.css" rel="stylesheet">
+    <link href="./stylesheet/oreui.css" rel="stylesheet">
+    <style>
+        .header_logo {
+            justify-content: left;
+            padding-left: 30px;
+        }
+
+        .main_title_area {
+            margin: 10px 20px;
+        }
+
+        .footer_info {
+            align-items: center;
+            color: #FFFFFF;
+            display: flex;
+            font-family: "Minecraft Seven", sans-serif;
+            font-size: 20px;
+            height: 60px;
+            justify-content: center;
+        }
+    </style>
     <title>快速开始 | OreUI</title>
 </head>
 
-<body>
+<div class="loading_mask" id="loading_mask">
+    <div>
+        <div class="spinner"><img alt="" id="spinner_img" src="./images/Loading_white.gif"/></div>
+        <div class="spinner">
+            <div class="spinner"><span class="spinner_text">生成世界中</span></div>
+        </div>
+        <noscript>
+            <style>
+                #spinner_img, .spinner_text {
+                    display: none;
+                }
+            </style>
+            <div class="spinner"><img alt="" id="spinner_img_error" src="./images/ErrorMessage.png"/></div>
+            <div class="spinner">
+                <div class="spinner"><span class="spinner_text_error">页面无法加载: 当前环境不支持或已禁用脚本.<br>请更换支持脚本的环境或在设置中允许脚本后访问本站.</span></div>
+            </div>
+        </noscript>
+    </div>
+</div>
 
+<body>
+<dispaly-area>
+    <header>
+        <div class="header_left">
+            <div class="header_item header_item_left header_item_blank"></div>
+        </div>
+        <div class="header_logo">
+            <div class="header_title">OreUI 设计</div>
+        </div>
+        <div class="header_right">
+            <div class="header_item header_item_right" onclick="playSoundType(this);openLink('https://github.com/Spectrollay/OreUI');">
+                <img alt="" class="header_right_icon" src="./images/Github.png"/>
+            </div>
+        </div>
+    </header>
+    <display-body>
+        <scroll-view class="main_scroll_view">
+            <scroll-container class="primary_scroll_container">
+                <main class="scroll_container" id="main">
+                    <div>
+                        <div class="main_title">
+                            <div class="main_title_area">
+                                <div class="main_title_span">一个基于 OreUI 设计理念的原生 WebUI 实现</div>
+                            </div>
+                        </div>
+                        <div class="main main_block">
+                            <div class="main_block_cont">
+                                <div style="margin: 8px">
+                                    <img alt="Coming Soon Image" class="coming_soon-img" src="./images/Building.png"/>
+                                    <div>即将到来</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_info">
+                        <div>© 2020 Spectrollay</div>
+                    </div>
+                </main>
+            </scroll-container>
+            <custom-scrollbar class="primary_custom_scrollbar">
+                <custom-scrollbar-track></custom-scrollbar-track>
+                <custom-scrollbar-thumb></custom-scrollbar-thumb>
+            </custom-scrollbar>
+        </scroll-view>
+    </display-body>
+</dispaly-area>
 </body>
+
+<script src="./javascript/loading.js"></script>
+<script src="./library/accessibility.js"></script>
+<script src="./javascript/public_script.js"></script>
+<script src="./javascript/oreui.js"></script>
 
 </html>
