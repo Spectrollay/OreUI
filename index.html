@@ -67,6 +67,10 @@
             margin: 4px 0;
         }
 
+        .main_description {
+            margin: 10px;
+        }
+
         .description_block {
             cursor: unset;
             width: 240px;
@@ -133,7 +137,7 @@
                         </div>
                     </div>
                     <div class="main main_block">
-                        <div class="main_block_cont">
+                        <div class="main_block_content">
                             <div class="btn_group">
                                 <custom-button data="default|green|small||false||" js="openLink('./docs');" text="设计文档"></custom-button>
                                 <custom-button data="default|normal|small||false||" js="openLink('./docs/how_to_use.html');" text="使用指南"></custom-button>
@@ -141,8 +145,8 @@
                         </div>
                     </div>
                     <div class="main main_block">
-                        <div class="main_block_cont">
-                            <div class="wrap_flex">
+                        <div class="main_block_content">
+                            <div class="wrap_flex main_description">
                                 <link-block class="description_block">
                                     <div class="link_title">
                                         <span class="link_title_text">纯原生实现</span>
