@@ -49,11 +49,11 @@ The core objective of this project is to: **fully implement the essential compon
 
 This project is developed and maintained based on the following features:
 
-* **Pure Native Implementation**: No third-party dependencies, ensuring lightweight, efficient, and easy integration.
-* **Highly Customizable**: Easily adjustable to meet personalized needs.
-* **Modular Architecture**: Components can be used independently or combined, greatly enhancing development flexibility.
-* **Responsive Design**: Adapts seamlessly across devices for smooth user experiences.
-* **Wide Compatibility**: Works with most major modern browsers, keeping behavior consistent across platforms.
+* **Pure Native Implementation**: Does not rely on any third-party libraries, ensuring lightweight, efficient, and easy to integrate.
+* **Modular Architecture**: Components can be used independently or combined to greatly improve development flexibility.
+* **Highly Customizable**: Easily modify styles through simple adjustments to meet personalized needs.
+* **Responsive Design**: Components adapt to different device types for a smooth and consistent experience.
+* **Broad Compatibility**: Supports most mainstream modern browsers with consistent features across platforms.
 
 ---
 

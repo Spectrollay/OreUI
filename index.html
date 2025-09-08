@@ -50,6 +50,28 @@
             margin: 10px 20px;
         }
 
+        .header_img {
+            margin-top: 20px;
+            max-width: 560px;
+            width: 90%;
+        }
+
+        .main_title_span_main {
+            font-family: "Minecraft Ten", sans-serif;
+            font-size: 28px;
+            margin: 10px 0;
+        }
+
+        .main_title_span_sub {
+            font-size: 24px;
+            margin: 4px 0;
+        }
+
+        .description_block {
+            cursor: unset;
+            width: 240px;
+        }
+
         .footer_info {
             align-items: center;
             color: #FFFFFF;
@@ -58,6 +80,7 @@
             font-size: 20px;
             height: 60px;
             justify-content: center;
+            text-align: center;
         }
     </style>
     <title>快速开始 | OreUI</title>
@@ -105,20 +128,58 @@
                     <div>
                         <div class="main_title">
                             <div class="main_title_area">
-                                <div class="main_title_span">一个基于 OreUI 设计理念的原生 WebUI 实现</div>
+                                <img alt="Minecraft ArtWork" class="header_img" src="./images/Default.png"/>
+                                <div class="main_title_span_main">OreUI 设计</div>
+                                <div class="main_title_span_sub">一个基于 OreUI 设计理念的原生 WebUI 实现</div>
                             </div>
                         </div>
                         <div class="main main_block">
                             <div class="main_block_cont">
-                                <div style="margin: 8px">
-                                    <img alt="Coming Soon Image" class="coming_soon-img" src="./images/Building.png"/>
-                                    <div>即将到来</div>
+                                <div class="btn_group">
+                                    <custom-button data="default|green|small||false||" js="openLink('./docs');" text="设计文档"></custom-button>
+                                    <custom-button data="default|normal|small||false||" js="openLink('./docs/how_to_use.html');" text="使用指南"></custom-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main main_block">
+                            <div class="main_block_cont">
+                                <div class="wrap_flex">
+                                    <link-block class="description_block">
+                                        <div class="link_title">
+                                            <span class="link_title_text">纯原生实现</span>
+                                        </div>
+                                        <div class="link_description">不依赖任何第三方库，确保轻量、高效、易于集成。</div>
+                                    </link-block>
+                                    <link-block class="description_block">
+                                        <div class="link_title">
+                                            <span class="link_title_text">模块化构建</span>
+                                        </div>
+                                        <div class="link_description">组件可独立使用或组合使用，极大提升开发灵活性。</div>
+                                    </link-block>
+                                    <link-block class="description_block">
+                                        <div class="link_title">
+                                            <span class="link_title_text">高度可定制</span>
+                                        </div>
+                                        <div class="link_description">通过简单调整即可轻松修改样式，满足个性化需求。</div>
+                                    </link-block>
+                                    <link-block class="description_block">
+                                        <div class="link_title">
+                                            <span class="link_title_text">响应式设计</span>
+                                        </div>
+                                        <div class="link_description">组件针对不同设备类型自适应显示，确保流畅体验。</div>
+                                    </link-block>
+                                    <link-block class="description_block">
+                                        <div class="link_title">
+                                            <span class="link_title_text">广泛兼容性</span>
+                                        </div>
+                                        <div class="link_description">支持大多数主流现代浏览器，各终端特性保持一致。</div>
+                                    </link-block>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="footer_info">
-                        <div>© 2020 Spectrollay</div>
+                        <div>MIT Licensed | © 2020 Spectrollay</div>
                     </div>
                 </main>
             </scroll-container>

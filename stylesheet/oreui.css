@@ -78,6 +78,17 @@
     touch-action: manipulation; /* 禁用长按菜单 */
 }
 
+.flex {
+    display: flex;
+}
+
+.wrap_flex {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* 总体样式 */
 html {
     font-family: "NotoSans Bold", sans-serif;
@@ -329,10 +340,6 @@ a {
 
 .main_title_area {
     margin: 10px 0;
-}
-
-.main_title_span {
-    font-size: 24px;
 }
 
 .main_block {
@@ -1055,6 +1062,112 @@ custom-dropdown .disabled_dropdown {
 
 .dropdown_option .dropdown_checkmark {
     display: none;
+}
+
+
+/* 链接框 */
+.link_block_group {
+    margin: 8px;
+}
+
+.link_block_group_title {
+    font-size: 17px;
+}
+
+link-block {
+    align-items: center;
+    border: 2px solid #58585A;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6px;
+    overflow: hidden;
+    padding: 5px 17px;
+    position: relative;
+}
+
+link-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 15px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: skewX(-45deg);
+    transition: none;
+    z-index: 2;
+}
+
+link-block::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 6px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: skewX(-45deg);
+    transition: none;
+    z-index: 1;
+}
+
+link-block:hover::before {
+    animation: thickFlash 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+link-block:hover::after {
+    animation: thinFlash 0.6s 0.01s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes thickFlash {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+@keyframes thinFlash {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+link-block:hover, link-block:active {
+    border: 2px solid #6D6D6E;
+    background-color: #58585A;
+}
+
+.link_title, .link_text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 4px;
+}
+
+.link_title {
+    font-size: 17px;
+}
+
+.link_title_img {
+    align-self: center;
+    margin-right: 5px;
+    width: 20px;
+}
+
+.link_title_img.without_text {
+    margin: 0;
+}
+
+.link_description {
+    margin-bottom: 6px;
+    color: #D0D1D4;
 }
 
 

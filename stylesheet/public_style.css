@@ -20,3 +20,8 @@
  * SOFTWARE.
  */
 
+.btn_group {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
