@@ -33,6 +33,14 @@ You can delve deeper into its details at [Mojang/ore-ui](https://github.com/Moja
 
 ---
 
+## 🚀 Quick Start
+
+* ### 🏠 [**OreUI Project Homepage**](https://spectrollay.github.io/OreUI)
+* ### 📚 [**OreUI Design Docs**](https://spectrollay.github.io/OreUI/docs)
+* ### 🛠️ [**OreUI Usage Guidance**](https://spectrollay.github.io/OreUI/docs/how_to_use.html)
+
+---
+
 ## 💡 Project Vision
 
 The core objective of this project is to: **fully implement the essential components of OreUI using native HTML, CSS, and JavaScript, completely eliminating reliance on any third-party plugins or frameworks**.  
@@ -65,14 +73,6 @@ We follow these key design principles when building this project:
 * **Native First**: Leverage native browser capabilities for the best performance and compatibility.
 * **High Customization**: Every component can be freely tailored as needed.
 * **Accessibility**: Optimized for an inclusive experience, ensuring usability for all users.
-
----
-
-## 🚀 Quick Start
-
-* ### 🏠 [**OreUI Project Homepage**](https://spectrollay.github.io/OreUI)
-* ### 📚 [**OreUI Design Docs**](https://spectrollay.github.io/OreUI/docs)
-* ### 🛠️ [**OreUI Usage Guidance**](https://spectrollay.github.io/OreUI/docs/how_to_use.html)
 
 ---
 

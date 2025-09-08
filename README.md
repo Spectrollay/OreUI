@@ -26,10 +26,18 @@
 
 ---
 
-## 🚀 什么是 OreUI?
+## 🤔 什么是 OreUI？
 
 OreUI 是由 Mojang Studios 推出的**开源用户界面 (UI) 构建基石**，以 **Web 标准**为核心，旨在为游戏和应用提供统一、可复用、可扩展的 UI 基础设施。它的设计目标是让开发者能够以声明式的方式构建一致的交互体验，支持跨平台渲染、主题定制和高可维护性，从而降低开发复杂度并提升可移植性。  
 你可以在 [Mojang/ore-ui](https://github.com/Mojang/ore-ui) 深入了解更多细节。
+
+---
+
+## 🚀 快速开始
+
+* ### 🏠 [**OreUI 项目主页**](https://spectrollay.github.io/OreUI)
+* ### 📚 [**OreUI 设计文档**](https://spectrollay.github.io/OreUI/docs)
+* ### 🛠️ [**OreUI 使用指南**](https://spectrollay.github.io/OreUI/docs/how_to_use.html)
 
 ---
 
@@ -65,14 +73,6 @@ OreUI 是由 Mojang Studios 推出的**开源用户界面 (UI) 构建基石**，
 * **原生优先**：充分利用现代浏览器的原生能力，以获得最佳性能和兼容性。
 * **高度定制**：所有的组件都可以根据需求自由地进行定制。
 * **可访问性**：独家优化了无障碍体验，确保所有用户都能顺畅使用。
-
----
-
-## 🚀 快速开始
-
-* ### 🏠 [**OreUI 项目主页**](https://spectrollay.github.io/OreUI)
-* ### 📚 [**OreUI 设计文档**](https://spectrollay.github.io/OreUI/docs)
-* ### 🛠️ [**OreUI 使用指南**](https://spectrollay.github.io/OreUI/docs/how_to_use.html)
 
 ---
 
