@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 What is OreUI?
+## 🤔 What is OreUI?
 
 OreUI is an **open-source UI foundation** developed by Mojang Studios, built on **web standards** to provide a unified, reusable, and extensible infrastructure for game and application interfaces. Its primary goal is to enable developers to build consistent user experiences declaratively, with support for cross-platform rendering, theme customization, and maintainability—reducing development complexity while improving portability.  
 You can delve deeper into its details at [Mojang/ore-ui](https://github.com/Mojang/ore-ui).
