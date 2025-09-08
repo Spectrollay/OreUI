@@ -25,3 +25,11 @@
     display: flex;
     justify-content: center;
 }
+
+.coming_soon-img {
+    height: 80px;
+}
+
+.notice_img {
+    width: 280px;
+}
