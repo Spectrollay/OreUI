@@ -78,6 +78,13 @@
     touch-action: manipulation; /* 禁用长按菜单 */
 }
 
+/* 总体样式 */
+html {
+    font-family: "NotoSans Bold", sans-serif;
+    height: 100%;
+    overscroll-behavior: contain;
+}
+
 .flex {
     display: flex;
 }
@@ -87,18 +94,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-/* 总体样式 */
-html {
-    font-family: "NotoSans Bold", sans-serif;
-    height: 100%;
-    overscroll-behavior: contain;
-}
-
-html.grayscale {
-    filter: grayscale(100%) !important;
-    -webkit-filter: grayscale(100%) !important;
 }
 
 body {
@@ -312,6 +307,11 @@ main {
     text-align: center;
 }
 
+/* 主体上下提示 */
+.main-header, .main-footer {
+    font-family: "Minecraft Ten", sans-serif;
+}
+
 /* 加载中图标 */
 .loading_icon {
     height: 32px;
@@ -340,6 +340,10 @@ a {
 
 .main_title_area {
     margin: 10px 0;
+}
+
+.main_title_span {
+    font-size: 24px;
 }
 
 .main_block {
@@ -428,7 +432,7 @@ custom-scrollbar {
     opacity: 1;
     overflow-y: hidden;
     position: absolute;
-    right: 0; /* 右侧显示 */
+    right: 2px; /* 右侧显示 */
     transition: opacity 1s;
 }
 
@@ -699,6 +703,12 @@ button {
     margin: 6px;
 }
 
+.btn:active {
+    height: 36px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+}
+
 .extra_small_btn {
     width: 100px;
 }
@@ -731,9 +741,6 @@ button {
 .normal_btn:active {
     background-color: #B1B2B5;
     box-shadow: inset 3px 3px rgba(255, 255, 255, 0.8), inset -3px -3px rgba(255, 255, 255, 0.6);
-    height: 36px;
-    margin-top: 10px;
-    padding-bottom: 2px;
 }
 
 .green_btn {
@@ -752,9 +759,6 @@ button {
 .green_btn:active {
     background-color: #1D4D13;
     box-shadow: inset 3px 3px rgba(255, 255, 255, 0.4), inset -3px -3px rgba(255, 255, 255, 0.3);
-    height: 36px;
-    margin-top: 10px;
-    padding-bottom: 2px;
 }
 
 .red_btn {
@@ -773,9 +777,6 @@ button {
 .red_btn:active {
     background-color: #AD1D1D;
     box-shadow: inset 3px 3px rgba(255, 255, 255, 0.5), inset -3px -3px rgba(255, 255, 255, 0.4);
-    height: 36px;
-    margin-top: 10px;
-    padding-bottom: 2px;
 }
 
 .disabled_btn {
@@ -833,7 +834,7 @@ button {
 }
 
 /* 带有Tooltip的按钮 */
-.btn_with_tooltip_cont {
+.btn_with_tooltip_content {
     display: inline-block;
     position: relative;
 }
@@ -852,7 +853,7 @@ button {
     z-index: 1;
 }
 
-.btn_with_tooltip_cont:hover .btn_tooltip {
+.btn_with_tooltip_content:hover .btn_tooltip {
     opacity: 1;
     visibility: visible;
 }
