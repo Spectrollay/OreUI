@@ -187,6 +187,7 @@ header {
     border: 0;
     box-shadow: unset;
     cursor: default;
+    pointer-events: none;
     width: 44px;
 }
 
