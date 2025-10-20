@@ -704,7 +704,7 @@ button {
     margin: 6px;
 }
 
-.btn:active {
+.btn:active:not(.disabled_btn) {
     height: 36px;
     margin-top: 10px;
     padding-bottom: 2px;
