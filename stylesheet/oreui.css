@@ -433,7 +433,7 @@ custom-scrollbar {
     opacity: 1;
     overflow-y: hidden;
     position: absolute;
-    right: 2px; /* 右侧显示 */
+    right: 0; /* 右侧显示 */
     transition: opacity 1s;
 }
 
